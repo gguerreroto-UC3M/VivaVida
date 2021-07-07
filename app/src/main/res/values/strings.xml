@@ -1,0 +1,117 @@
+<resources>
+    <!--    App name    -->
+    <string name="app_name">VivaVida</string>
+
+    <!--    Activity titles    -->
+    <string name="name_sport">Track an activity!</string>
+    <string name="name_menu">Main Menu</string>
+    <string name="name_macros">Track your macros!</string>
+    <string name="name_profile">Edit your profile</string>
+    <string name="name_saved">Your activities</string>
+    <string name="name_savedAct">Activity stats</string>
+
+    <!--    Actionbar    -->
+    <string name="about_title">About</string>
+    <string name="about">VivaVida is an application focused to encourage people to seek a healthy
+        and active lifestyle by the tracking of sport activities and macronutrients.
+        The authors, three young students at UC3M, have developed the application given the guidelines
+        based on the course Mobile Applications.\nAll rights reserved, 2021.</string>
+    <string name="actionbar_about">About</string>
+    <string name="actionbar_icon">icono</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required, which shows your current location on the map.</string>
+    <string name="location_permission_denied">Please grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'VivaVida\'.</string>
+    <string name="camera_permission_denied">Please grant access to use the camera.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'VivaVida\'.</string>
+    <string name="permission_required_toast">Location permission is required to track your activity.</string>
+    <string name="permission_required_toast2">Camera permission is required to register your data.</string>
+
+    <!--    Loading activity    -->
+    <string name="logo_of_the_app">logo of the app</string>
+    <string name="letter_app">letter logo of the app</string>
+
+    <!--    Main menu activity    -->
+    <string name="content_button1">Start a new activity. You can either chose running, walking... any workout is better than nothing!</string>
+    <string name="content_button2">Track your macros, discover how many food groups are left to stay full nourished</string>
+    <string name="content_button3">Update your lifestyle, configure your meal plan and diet according your necessities</string>
+    <string name="content_button4">Check all your activities! See how good progress you are doing!</string>
+    <string name="map_button">map</string>
+    <string name="macros_button">macros_button</string>
+    <string name="profile_button">profile_button</string>
+    <string name="saved_button">saved button</string>
+
+    <!--    Macros activity     -->
+    <string name="name_carbs">Carbs: </string>
+    <string name="name_proteins">Proteins: </string>
+    <string name="name_fats">Fats: </string>
+    <string name="name_calories">Kcal: </string>
+    <string name="name_add_meal">Add your meal!</string>
+    <string name="name_select_macro">Select a macro:</string>
+    <string name="name_introduce_quantity">Introduce a quantity in grams or kcal:</string>
+    <string name="percent_0">0%</string>
+    <string name="edit_macro_button">edit macro button</string>
+    <string name="allzeroes">0</string>
+    <string name="button_to_add_macro">button to add macro</string>
+    <string name="button_scan_a_product">Tap here to scan a product!</string>
+
+    <!--    Profile activity    -->
+    <string name="weight">Weight:</string>
+    <string name="height">Height:</string>
+    <string name="genre">Genre:</string>
+    <string name="name">Name:</string>
+    <string name="edit_name">Your name here</string>
+    <string name="edit_height">Your height here</string>
+    <string name="edit_weight">Your weight here</string>
+    <string name="profile_pic">Choose an option</string>
+    <string name="profile_button_photo">profile button photo</string>
+    <string name="cm">cm</string>
+    <string name="kg">kg</string>
+
+    <!--    Sport activity    -->
+    <string name="max_t">Max. Tª: </string>
+    <string name="min_t">Min.Tª:  </string>
+    <string name="running">Running</string>
+    <string name="hiking">Hiking</string>
+    <string name="cycling">Cycling</string>
+    <string name="swimming">Swimming</string>
+    <string name="start">START</string>
+    <string name="weather_icon">weather icon</string>
+
+    <!--    Saved activity    -->
+    <string name="delete_all_activities">DELETE ALL ACTIVITIES</string>
+
+    <!--    Saved act activity    -->
+    <string name="delete_activity">DELETE activity</string>
+
+    <!--    Activity row    -->
+    <string name="TYPE_ACT">ACTIVITY</string>
+    <string name="TYPE_DATE">DATE</string>
+
+    <!--   Change goal dialog    -->
+    <string name="new_goal">Enter a new goal</string>
+    <string name="ex_200">Ex. 200</string>
+    <string name="new_macro_done">Done</string>
+
+    <!--    Scan product dialog    -->
+    <string name="dialog_macros_a">These are the macros per 100 grams of your scanned product:</string>
+    <string name="dialog_macros_carbs">Carbohydrates:</string>
+    <string name="none">None</string>
+    <string name="dialog_macros_prot">Proteins:</string>
+    <string name="dialog_macros_fats">Fats:</string>
+    <string name="dialog_macros_c">Do you want to add this product to your macros consumed today?</string>
+    <string name="dialog_macros_d">Insert the portion you consumed in grams:</string>
+    <string name="dialog_macros_kcal">Kcal:</string>
+    <string name="ex_50">Ex. 50</string>
+    <string name="dialog_macros_done">Done</string>
+
+    <!--    Delete all dialog    -->
+    <string name="delete_dialog">Are you sure you want to delete all the registered activities? \nDeleted data won\'t be retrievable</string>
+    <string name="yes_delete">YES, DELETE</string>
+    <string name="no_cancel">NO, CANCEL</string>
+
+    <!--    Finish activity dialog    -->
+    <string name="well_done_your_stats">Well done! Your stats:</string>
+    <string name="time_">Time:</string>
+    <string name="distance_">Distance:</string>
+    <string name="kcal_">Kcal burned:</string>
+</resources>

@@ -1,0 +1,162 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mywhite"
+    tools:context=".SportActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/mydarkblue"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/weather"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/weather_icon"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_baseline_help_outline_24"
+                app:tint="@color/mywhite" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|start"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tem_max_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:text="@string/max_t"
+                    android:textColor="@color/mywhite"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tem_min_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:text="@string/min_t"
+                    android:textColor="@color/mywhite"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tem_max"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:textColor="@color/mywhite"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tem_min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:textColor="@color/mywhite"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <fragment xmlns:map="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            map:cameraZoom="20" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/myorange"
+                android:text="@string/running"
+                android:textColor="@color/mydarkblue" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/myorange"
+                android:text="@string/hiking"
+                android:textColor="@color/mydarkblue" />
+
+
+            <RadioButton
+                android:id="@+id/radio20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/myorange"
+                android:text="@string/cycling"
+                android:textColor="@color/mydarkblue" />
+
+            <RadioButton
+                android:id="@+id/radio21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/myorange"
+                android:text="@string/swimming"
+                android:textColor="@color/mydarkblue" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/myorange"
+            android:text="@string/start"
+            android:textColor="@color/mywhite"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Chronometer
+            android:id="@+id/Chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mydarkblue"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</ScrollView>

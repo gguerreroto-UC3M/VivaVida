@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="VivaVida" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mydarkblue</item>
+        <item name="colorPrimaryDark">@color/mydarkblue</item>
+        <item name="colorAccent">@color/myorange</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/mywhite</item>
+        <item name="android:navigationBarColor">@color/mydarkblue</item>
+    </style>
+
+    <style name="VivaVidaLoading" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mydarkblue</item>
+        <item name="colorPrimaryDark">@color/mydarkblue</item>
+        <item name="colorAccent">@color/mydarkblue</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/mydarkblue</item>
+        <item name="android:navigationBarColor">@color/mydarkblue</item>
+    </style>
+
+</resources>
